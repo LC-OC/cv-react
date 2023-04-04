@@ -1,0 +1,34 @@
+.name-dev {
+    margin-top: 8rem;
+    margin-bottom: 13rem;
+    h1 {
+        margin: auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-size: 45px;
+        font-family: 'Playfair Display', serif;
+        @media #{$mobile} {
+            font-size: 35px;
+        }
+        .dev-title {
+            color: white;
+            background-color: black; 
+            padding: 0.5rem;
+            border-radius: 10px;
+            width: 29rem;
+            animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+            white-space: nowrap;
+            overflow: hidden;
+            @media #{$mobile} {
+                width: 22.5rem;
+            }
+        }
+        @keyframes typing {
+            from {
+            width: 0
+            }
+        }
+    }
+}
+

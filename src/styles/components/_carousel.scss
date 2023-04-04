@@ -1,0 +1,66 @@
+.projects_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 13rem 0;
+    h2 {
+        font-family: 'Playfair Display', serif;
+        margin-bottom: 4rem;
+        font-size: 2.3rem;
+    }
+}
+.carousel {
+    height: 30rem;
+    width: 70%;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    background-color: #EAAE98;
+    font-family: 'Metrophobic', sans-serif;
+    @media #{$mobile} {
+        width: 90%;
+        height: 20rem;
+    }
+}
+
+.carousel_content {
+    height: 30rem;
+    border-radius: 15px;
+    img {
+        height: 22rem;
+        object-fit: cover;
+        object-position: top;
+        //filter: brightness(95%);
+        //border-radius: 15px;
+        @media #{$mobile} {
+            height: 15rem;
+        }
+        @media #{$tablet} {
+            height: 20rem;
+        }
+        @media #{$medium-screen} {
+            height: 21rem;
+        }
+    }
+    .carousel_caption {
+        color: #565353;
+        h3 {
+            font-size: 1.4rem;
+            @media #{$mobile} {
+                font-size: 1rem;
+            }
+        }
+    }
+    
+   
+}
+
+// change color icon prev & next
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(225, 160, 128)' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    }
+    .carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(225, 160, 128)' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    }
