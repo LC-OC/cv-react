@@ -69,6 +69,11 @@
             margin-left: -1em
         }
     }
+    .mobile {
+        @media #{$mobile} {
+            width: 40%;
+        }
+    }
     .exppro-body {
         display: flex;
         flex-direction: row;
@@ -82,12 +87,8 @@
             @media #{$mobile} {
                 margin: 0;
             }
-            .mobile {
-                @media #{$mobile} {
-                    width: 50%;
-                }
-            }
         }
+        
     }
     .first-formation {
         display: flex;
