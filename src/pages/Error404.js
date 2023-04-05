@@ -24,7 +24,7 @@ const Error404 = () => {
         </p>
         <Link
           to={{
-            pathname: `/`,
+            pathname: `/lc-cv`,
           }}
         >
           <button className="button-30">Ramenez moi au CV</button>
