@@ -9,7 +9,7 @@
         font-size: 45px;
         font-family: 'Playfair Display', serif;
         @media #{$mobile} {
-            font-size: 35px;
+            font-size: 33px;
         }
         .dev-title {
             color: white;
@@ -21,7 +21,7 @@
             white-space: nowrap;
             overflow: hidden;
             @media #{$mobile} {
-                width: 22.5rem;
+                width: 21.2rem;
             }
         }
         @keyframes typing {

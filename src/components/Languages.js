@@ -24,9 +24,9 @@ const Languages = () => {
         <img src={react_icon} alt="" />
         <img src={visual_studio_icon} alt="" />
         <img src={git_icon} alt="" />
-        <img src={figma_icon} alt="" />
         <img src={trello_icon} alt="" />
         <img src={mongo_db} alt="" />
+        <img src={figma_icon} alt="" />
       </div>
     </div>
   );

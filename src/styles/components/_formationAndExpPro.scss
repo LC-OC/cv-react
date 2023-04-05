@@ -82,6 +82,11 @@
             @media #{$mobile} {
                 margin: 0;
             }
+            .mobile {
+                @media #{$mobile} {
+                    width: 50%;
+                }
+            }
         }
     }
     .first-formation {
