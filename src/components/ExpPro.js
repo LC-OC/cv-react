@@ -27,8 +27,11 @@ const ExpPro = () => {
             <li>Conseillère en insertion professionnelle - AFPA</li>
             <li>Service Civique - Pôle Emploi</li>
             <li>Hôtesse de caisse - Super U</li>
-            <li className="mobile">
-              Vendeuse en boulangerie/pâtisserie/chocolaterie
+            <li>
+              Vendeuse en{" "}
+              <span className="mobile">
+                boulangerie/pâtisserie/chocolaterie
+              </span>
             </li>
           </ul>
         </div>
