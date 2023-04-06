@@ -89,7 +89,7 @@ export const competencesListing = [
   { name: "Créer des applications web dynamiques avec Javascript et React" },
   { name: "Communiquer avec le back-end de l’application grâce à une API" },
   {
-    name: "Mettre en œuvre des test unitaires et d’intégration et débugger le code",
+    name: "Mettre en œuvre des tests unitaires et d’intégration, débugger le code",
   },
   {
     name: "Résoudre des problèmes techniques avec un langage de programmation et des algorithmes",
